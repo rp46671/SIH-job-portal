@@ -35,7 +35,14 @@
       <!-- #nav-menu-container -->
     </div>
   </header>
-  
+  <!--==========================
+  About started
+  ============================-->
+  <section id="about">
+
+              
+  </section>
+
   <!--==========================
   About Section
   ============================-->
@@ -43,7 +50,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">About Us</h3>
+          <h3 class="section-title"></h3>
           <div class="section-title-divider"></div>
           <p class="section-description">The job market place is flooded with highly skilled job seekers <strong>GrabRozgar</strong> is a online employment solution for people seeking jobs and the employers who need skilled people.</p>
         </div>
