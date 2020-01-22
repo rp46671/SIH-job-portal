@@ -16,9 +16,9 @@ class Main extends CI_Controller {
 		$this->load->view('MainSidebar_users');
 		
 		$this->load->view('dashboard');
-		$this->load->view('Footermain');
-		
+		$this->load->view('Footermain');	
 	}
+
 	public function users_main()
 	{
 		$this->load->view('headermain1');
@@ -28,4 +28,77 @@ class Main extends CI_Controller {
 		$this->load->view('Footermain');
 		
 	}
-}
+	public function Login_page()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Login');
+				$this->load->view('Footermain');
+		}
+
+	public function Forget_password()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+public function Job_Search()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+public function Upload_Resume()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('MainSidebar_users');
+				$this->load->view('upres');
+				$this->load->view('Footermain');		
+		}
+public function Result_Credit()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+public function Apply_Job()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+public function Response()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+
+public function Study_Resourse()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+
+public function  F_A_Q()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+
+public function FeedBack()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
+
+
+        
+                   
+                  
+                  
+                                                     
+                  
+              }
