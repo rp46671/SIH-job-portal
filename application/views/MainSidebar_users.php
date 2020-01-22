@@ -34,46 +34,70 @@
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">
                   <i class="material-icons">edit</i>
-                  <span>Blog Dashboard</span>
+                  <span>Dashboard</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="components-blog-posts.html">
-                  <i class="material-icons">vertical_split</i>
-                  <span>Blog Posts</span>
+                <a class="nav-link " href="<?php echo site_url('main/Job_Search');?>">
+                  <i class="material-icons">find_in_page</i>
+                  <span><strong>Job Search</strong></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="add-new-post.html">
-                  <i class="material-icons">note_add</i>
-                  <span>Add New Post</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="form-components.html">
+                <a class="nav-link " href="<?php echo site_url('main/Upload_Resume');?>">
                   <i class="material-icons">view_module</i>
-                  <span>Forms &amp; Components</span>
+                  <span><strong>Upload Resume</strong></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="tables.html">
+                <a class="nav-link " href="<?php echo site_url('main/Given_Test');?>">
+                  <i class="material-icons">chat</i>
+                  <span><strong>Given Test</strong></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="<?php echo site_url('main/Result_Credit');?>">
+                  <i class="material-icons">work</i>
+                  <span><strong>Result & Credit </strong></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="<?php echo site_url('main/Apply_Job');?>">
                   <i class="material-icons">table_chart</i>
-                  <span>Tables</span>
+                  <span><strong>Apply Job</strong></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="<?php echo site_url('main/Response');?>">
+                  <i class="material-icons">contact_mail</i>
+                  <span><strong>Response</strong></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="<?php echo site_url('main/Study_Resourse');?>">
+                  <i class="material-icons">gps_fixed</i>
+                  <span><strong>Study Resourse</strong></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="<?php echo site_url('main/FAQ');?>">
+                  <i class="material-icons">note_add</i>
+                  <span><strong>F-A-Q</strong></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="<?php echo site_url('main/FeedBack');?>">
+                  <i class="material-icons">present_to_all</i>
+                  <span><strong>FeedBack</strong></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/users_main');?>">
                   <i class="material-icons">person</i>
-                  <span>User Profile</span>
+                  <span><strong>User Profile</strong></span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " href="errors.html">
-                  <i class="material-icons">error</i>
-                  <span>Errors</span>
-                </a>
-              </li>
-            </ul>
+             </ul>
           </div>
         </aside>
         <!-- End Main Sidebar -->
