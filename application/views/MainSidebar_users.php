@@ -4,6 +4,8 @@
         </div>
       </div>
 <!-- Main Sidebar -->
+    <div class="container-fluid">
+      <div class="row">
         <aside class="main-sidebar col-12 col-md-3 col-lg-2 px-0">
           <div class="main-navbar">
             <nav class="navbar align-items-stretch navbar-light bg-white flex-md-nowrap border-bottom p-0">
@@ -60,7 +62,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="user-profile-lite.html">
+                <a class="nav-link " href="<?php echo site_url('main/users_main');?>">
                   <i class="material-icons">person</i>
                   <span>User Profile</span>
                 </a>

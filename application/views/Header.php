@@ -305,16 +305,16 @@ So do not hesitate to explore your career opportunities with our job portal and 
         <div class="col-md-12">
           <h3 class="section-title">Our Team</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Need to get in Touch with the Team? We're all ears.</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
             <div class="pic"><img src="<?php echo base_url('assets/img/team-1.jpg');?>" alt=""></div>
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
+            <h4>Ravi Pandey</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -324,11 +324,11 @@ So do not hesitate to explore your career opportunities with our job portal and 
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
             <div class="pic"><img src="<?php echo base_url('assets/img/team-2.jpg');?>" alt=""></div>
-            <h4>Sarah Jhinson</h4>
-            <span>Product Manager</span>
+            <h4>Shaivi Bansal</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -338,11 +338,11 @@ So do not hesitate to explore your career opportunities with our job portal and 
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('assets/img/team-3.jpg');?>" alt=""></div>
-            <h4>William Anderson</h4>
-            <span>CTO</span>
+            <div class="pic"><img src="<?php echo base_url('assets/img/t3.jpg');?>" alt=""></div>
+            <h4>Preeti Kumari Kuswaha</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -352,11 +352,11 @@ So do not hesitate to explore your career opportunities with our job portal and 
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('assets/img/team-4.jpg');?>" alt=""></div>
-            <h4>Amanda Jepson</h4>
-            <span>Accountant</span>
+            <div class="pic"><img src="<?php echo base_url('assets/img/t4.jpg');?>" alt=""></div>
+            <h4>Suraj Uniyal</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -365,6 +365,36 @@ So do not hesitate to explore your career opportunities with our job portal and 
             </div>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/t5.jpg');?>" alt=""></div>
+            <h4>Vikram Singh</h4>
+            <span>MCA</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/team-6.jpg');?>" alt=""></div>
+            <h4>Abhinav Kumar</h4>
+            <span>MCA</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </div>
@@ -377,9 +407,9 @@ So do not hesitate to explore your career opportunities with our job portal and 
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h3 class="section-title">Drop us a Line</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">We’d love to hear from you</p>
         </div>
       </div>
 
@@ -388,17 +418,17 @@ So do not hesitate to explore your career opportunities with our job portal and 
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p>566/6, Bell Road, Society Area<br>Clement Town, Dehradun, Uttarakhand 248002</p>
             </div>
 
             <div>
               <i class="fa fa-envelope"></i>
-              <p>info@example.com</p>
+              <p>Gr-alpha@gmail.com</p>
             </div>
 
             <div>
               <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
+              <p>1800 270 1280</p>
             </div>
 
           </div>
