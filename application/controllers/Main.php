@@ -13,6 +13,7 @@ class Main extends CI_Controller {
 	public function dashboard()
 	{
 		$this->load->view('headermain1');
+		$this->load->view('MainSidebar');
 		
 		$this->load->view('dashboard');
 		$this->load->view('Footermain');
