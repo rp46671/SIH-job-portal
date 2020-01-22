@@ -78,7 +78,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Experienced</button> </center>
+                     <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Experienced</button> </center>
                    </li></ul>
                    </div></div>
 
@@ -90,7 +90,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Recruiter  </button></center> </li></ul>
+                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Recruiter  </button></center> </li></ul>
                    </div></div>
 
               <div class="col-sm-3">
@@ -101,7 +101,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/search.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                     <img src="<?php echo base_url('assets/img/search.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img>
                      <br><br><center><button  class="btn-get-started"> Search job </button></center> </li></ul>
                    </div></div>
              </div>         
