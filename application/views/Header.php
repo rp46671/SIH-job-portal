@@ -34,14 +34,77 @@
       </nav>
       <!-- #nav-menu-container -->
     </div>
+     <div class="container ">
+      <div class="row">
+       
+  <nav class="navbar navbar-expand-lg  navbar-light" style="background-color: #e3f2fd;">
+       <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#team">Team</a></li>
+      </div>
+     <!-- Navbar content -->
+</nav>
+      </div>
+    </div>
+
   </header>
   <!--==========================
   About started
   ============================-->
   <section id="about">
-
-              
-  </section>
+   
+     <div class="container ">
+      <div class="row">
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+             </div>         
+                </div>
+              </section>
+               
+   
+  
 
   <!--==========================
   About Section
