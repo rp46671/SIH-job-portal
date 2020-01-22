@@ -16,7 +16,19 @@ class Main extends CI_Controller {
 		$this->load->view('MainSidebar');
 		
 		$this->load->view('dashboard');
-		$this->load->view('Footermain');
-		
+		$this->load->view('Footermain');	
 	}
+	public function Login_page()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Login');
+				$this->load->view('Footermain');
+		}
+
+	public function Forget_password()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('Forget_password');
+				$this->load->view('Footermain');		
+		}
 }
