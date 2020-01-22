@@ -105,6 +105,57 @@
                
    
   
+<section id="about">
+   
+     <div class="container ">
+      <div class="row">
+              <h3 class="section-title">About uS</h3>
+          <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left">
+                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                   </div></div>
+             </div>         
+                </div>
+              </section>
+               
+   
+  
 
   <!--==========================
   About Section
@@ -113,7 +164,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title"></h3>
+          <h3 class="section-title">About uS</h3>
           <div class="section-title-divider"></div>
           <p class="section-description">The job market place is flooded with highly skilled job seekers <strong>GrabRozgar</strong> is a online employment solution for people seeking jobs and the employers who need skilled people.</p>
         </div>
@@ -189,4 +240,139 @@ So do not hesitate to explore your career opportunities with our job portal and 
   </section>
 
   
-  
+ <!--- Team Section
+  ============================-->
+  <section id="team">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Our Team</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/team-1.jpg');?>" alt=""></div>
+            <h4>Walter White</h4>
+            <span>Chief Executive Officer</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/team-2.jpg');?>" alt=""></div>
+            <h4>Sarah Jhinson</h4>
+            <span>Product Manager</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/team-3.jpg');?>" alt=""></div>
+            <h4>William Anderson</h4>
+            <span>CTO</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/team-4.jpg');?>" alt=""></div>
+            <h4>Amanda Jepson</h4>
+            <span>Accountant</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Contact Section
+  ============================-->
+  <section id="contact">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Contact Us</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-md-push-2">
+          <div class="info">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p>A108 Adam Street<br>New York, NY 535022</p>
+            </div>
+
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p>info@example.com</p>
+            </div>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+1 5589 55488 55s</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-5 col-md-push-2">
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
