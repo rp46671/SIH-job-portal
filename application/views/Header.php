@@ -67,7 +67,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Fresher's</button></center> </li></ul>
+                     <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Fresher's</button></center> </li></ul>
                    </div></div>
 
               <div class="col-sm-3">
@@ -113,7 +113,7 @@
    
      <div class="container ">
       <div class="row">
-              <h3 class="section-title">About uS</h3>
+              <h3 class="section-title">Advertisment</h3>
           <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
                 <div class="card card-small sm-4">
