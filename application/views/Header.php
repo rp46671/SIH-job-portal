@@ -61,13 +61,17 @@
       <div class="row">
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
-                <div class="card card-small sm-4">
+                <div class="card card-small lg-4">
                   <div class="card-header border-bottom">
                     <h6 class="m-4">Sliders & Progress Bars</h6>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Fresher's</button></center> </li></ul>
+                     <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center>
+  
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Fresher's</button> </center>
+
+             </li></ul>
                    </div></div>
 
               <div class="col-sm-3">
@@ -78,8 +82,10 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Experienced</button> </center>
-                   </li></ul>
+                     <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img>   <br><br>
+                    <center>        
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Experienced</button></center>
+</li></ul>
                    </div></div>
 
               <div class="col-sm-3">
@@ -90,7 +96,9 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center><button  class="btn-get-started">Recruiter  </button></center> </li></ul>
+                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img>   <br><br>   <center>       
+                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Recruiter</button></center>
+ </li></ul>
                    </div></div>
 
               <div class="col-sm-3">
@@ -101,9 +109,10 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/search.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> 
-                     <br><br><center><button  class="btn-get-started"> Search job </button></center> </li></ul>
-                   </div></div>
+                     <img src="<?php echo base_url('assets/img/search.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> <br><br><center>
+                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Search</button>
+                  </center>
+</div></div>
              </div>         
                 </div>
               </section>
@@ -123,7 +132,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
                    </div></div>
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
@@ -133,7 +142,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
                    </div></div>
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
@@ -143,7 +152,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
+                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
                    </div></div>
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
