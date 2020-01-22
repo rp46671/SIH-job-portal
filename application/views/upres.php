@@ -1,67 +1,99 @@
-<!-- / Sliders & Progress Bars -->
-                <!-- Input & Button Groups -->
-                <div class="card card-small mb-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-0">Groups</h6>
+<!doctype html>
+    <div class="container-fluid">
+      <div class="row">
+        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+          <div class="main-navbar sticky-top bg-white"><div class="row">
+             
+              <div class="col-lg-4">
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/upload.png');?>" alt="User Avatar" width="110"> </div>
+                    <h4 class="mb-0">Upload Resume</h4>
+                    <span class="text-muted d-block mb-2">Project Manager</span>
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                      <i class="material-icons mr-1">person_add</i>Follow</button>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3">
-                      <form>
-                        <!-- Button Groups -->
-                        <strong class="text-muted d-block mb-2">Button Groups</strong>
-                        <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
-                          <label class="btn btn-white active">
-                            <input type="radio" name="options" id="option1" autocomplete="off" checked> Fizz </label>
-                          <label class="btn btn-white">
-                            <input type="radio" name="options" id="option2" autocomplete="off"> Buzz </label>
-                          <label class="btn btn-white">
-                            <input type="radio" name="options" id="option3" autocomplete="off"> Foo </label>
-                          <label class="btn btn-white">
-                            <input type="radio" name="options" id="option4" autocomplete="off"> Bar </label>
-                        </div>
-                        <!-- / Button Groups -->
-                        <!-- Input Groups -->
-                        <strong class="text-muted d-block mb-2">Input Groups</strong>
-                        <div class="input-group mb-3">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text">@</span>
-                          </div>
-                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> </div>
-                        <div class="input-group mb-3">
-                          <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon2" value="contact">
-                          <div class="input-group-append">
-                            <span class="input-group-text">@designrevision.com</span>
+                    <li class="list-group-item px-4">
+                      <div class="progress-wrapper">
+                        <strong class="text-muted d-block mb-2">Workload</strong>
+                        <div class="progress progress-sm">
+                          <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100" style="width: 74%;">
+                            <span class="progress-value">74%</span>
                           </div>
                         </div>
-                        <div class="input-group mb-3">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text">$</span>
-                          </div>
-                          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" value="1000">
-                          <div class="input-group-append">
-                            <span class="input-group-text">.00</span>
-                          </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item p-4">
+                      <strong class="text-muted d-block mb-2">Description</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque, quidem, commodi soluta qui quae minima obcaecati quod dolorum sint alias, possimus illum assumenda eligendi cumque?</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+              <div class="col-lg-8">
+                <div class="card card-small mb-4">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-0">Created Resume</h6>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-3">
+                      <div class="row">
+                        <div class="col">
+                          <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="feFirstName">First Name</label>
+                                <input type="text" class="form-control" id="feFirstName" placeholder="First Name" > </div>
+                              <div class="form-group col-md-6">
+                                <label for="feLastName">Last Name</label>
+                                <input type="text" class="form-control" id="feLastName" placeholder="Last Name"> </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="feEmailAddress">Email</label>
+                                <input type="email" class="form-control" id="feEmailAddress" placeholder="Email"> </div>
+                              <div class="form-group col-md-6">
+                                <label for="fePassword">Password</label>
+                                <input type="password" class="form-control" id="fePassword" placeholder="Password"> </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="feInputAddress">Address</label>
+                              <input type="text" class="form-control" id="feInputAddress" placeholder="1234 Main St"> </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="feInputCity">City</label>
+                                <input type="text" class="form-control" id="feInputCity"> </div>
+                              <div class="form-group col-md-4">
+                                <label for="feInputState">State</label>
+                                <select id="feInputState" class="form-control">
+                                  <option selected>Choose...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip"> </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-12">
+                                <label for="feDescription"><strong>Career Objective</strong></label>
+                                <textarea class="form-control" name="feDescription" rows="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque, quidem, commodi soluta qui quae minima obcaecati quod dolorum sint alias, possimus illum assumenda eligendi cumque?</textarea>
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-accent">Update Account</button>
+                          </form>
                         </div>
-                        <!-- Input Groups -->
-                        <!-- Seamless Input Groups -->
-                        <strong class="text-muted d-block mb-2">Seamless Input Groups</strong>
-                        <div class="input-group mb-3">
-                          <div class="input-group input-group-seamless">
-                            <span class="input-group-prepend">
-                              <span class="input-group-text">
-                                <i class="material-icons">person</i>
-                              </span>
-                            </span>
-                            <input type="text" class="form-control" id="form1-username" placeholder="Username" value="design.revision"> </div>
-                        </div>
-                        <div class="input-group mb-3">
-                          <div class="input-group input-group-seamless">
-                            <input type="password" class="form-control" id="form2-password" placeholder="Password" value="mySuperSecretPa$$word">
-                            <span class="input-group-append">
-                              <span class="input-group-text">
-                                <i class="material-icons">lock</i>
-                              </span>
-                            </span>
-                          </div>
-                        </div>
-                
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    

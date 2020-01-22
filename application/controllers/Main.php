@@ -6,8 +6,11 @@ class Main extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('front');
+		$this->load->view('headermain1');
+				
 		$this->load->view('header');
 		$this->load->view('footer');
+		$this->load->view('Footermain');		
 		
 	}
 	public function dashboard()
@@ -23,7 +26,6 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('headermain1');
 		$this->load->view('MainSidebar_users');
-		
 		$this->load->view('users_main');
 		$this->load->view('Footermain');
 		
