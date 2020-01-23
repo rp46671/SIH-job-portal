@@ -12,7 +12,7 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-has-children"><a href="">Drop</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
