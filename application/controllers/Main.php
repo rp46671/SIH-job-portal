@@ -97,6 +97,22 @@ public function FeedBack()
 				$this->load->view('feedback');
 				$this->load->view('Footermain');		
 		}
+	public function Given_Test()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('MainSidebar_users');
+				$this->load->view('give_test');
+				//$this->load->view('dashboard');
+				$this->load->view('Footermain');		
+		}
+	public function Networking_Test()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('MainSidebar_users');
+				$this->load->view('Network_test');
+				//$this->load->view('dashboard');
+				$this->load->view('Footermain');		
+		}
 
 
         
