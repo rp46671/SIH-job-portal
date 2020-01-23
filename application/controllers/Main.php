@@ -92,7 +92,9 @@ public function  F_A_Q()
 public function FeedBack()
 		{
 				$this->load->view('headermain1');
-				$this->load->view('Forget_password');
+				$this->load->view('MainSidebar_users');
+				
+				$this->load->view('feedback');
 				$this->load->view('Footermain');		
 		}
 
