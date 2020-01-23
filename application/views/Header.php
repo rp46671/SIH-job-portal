@@ -7,28 +7,13 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#portfolio">Advertisment</a></li>
+          
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
@@ -38,9 +23,11 @@
   <!--==========================
   About started
   ============================-->
-  <section id="about">
-   
-     <div class="container ">
+  <section id="about1">
+     <div class="section-title-divider"> </div>
+              
+     <div class="container wow fadeInUp ">
+     
       <div class="row">
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
@@ -90,7 +77,7 @@
                
    
   
-<section id="about">
+<section id="portfolio">
    <h3 class="section-title">Advertisment</h3>
       <div class="section-title-divider"></div>
               
@@ -369,7 +356,7 @@ So do not hesitate to explore your career opportunities with our job portal and 
 
         <div class="col-md-4">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('assets/img/t5.jpg');?>" alt=""></div>
+            <div class="pic"><img src="<?php echo base_url('assets/img/tr5.jpg');?>" alt=""></div>
             <h4>Vikram Singh</h4>
             <span>MCA</span>
             <div class="social">
