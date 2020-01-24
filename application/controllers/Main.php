@@ -41,7 +41,7 @@ class Main extends CI_Controller {
 	public function Apply_job()
 	{
 		$this->load->view('headermain1');
-		$this->load->view('MainSidebar_users');
+		
 	
 		$this->load->view('Apply_job');
 		$this->load->view('Footermain');
@@ -80,19 +80,7 @@ public function Result_Credit()
 				$this->load->view('Footermain');		
 
 		}
-
-
-		
-public function Apply_job()
-
-	{
-		$this->load->view('headermain1');
-		
-		$this->load->view('Apply_job');
-		$this->load->view('Footermain');
-	}
-
-
+ 	
 
 
 public function Response()
