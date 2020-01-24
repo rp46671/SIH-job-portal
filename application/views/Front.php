@@ -66,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <h1>Welcome to GrabRozgar</h1>
           <h2> <span class="rotating"> Carving Out, Let Your  </span><span> </span><span class="rotating">  Peaceful Tomorrows, Skills Speak </span></h2>
           <div class="actions">
-          <a href="#about1" class="btn-get-started">Get Strated</a>
+          <a href="#about1" class="btn-get-started">Get Started</a>
           <a href="#services" class="btn-services">Our Services</a>
         </div>
    

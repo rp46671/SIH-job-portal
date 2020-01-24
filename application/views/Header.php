@@ -218,6 +218,8 @@ So do not hesitate to explore your career opportunities with our job portal and 
       </div>
     </div>
   </section>
+
+  <!--Our services-->
 <section id="services">
     <div class="container wow fadeInUp">
       <div class="row">
@@ -237,12 +239,12 @@ So do not hesitate to explore your career opportunities with our job portal and 
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-photo"></i></div>
           <h4 class="service-title"><a href="">Job Post</a></h4>
-          <p class="service-description">Reach out your job seeker whose skills matches with your requirements “test select interview hire” </p>
+          <p class="service-description">Reach out to us those Jobseekers whose skills matches with your requirements “TEST-SELECT-INTERVIEW-HIRE” </p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
           <h4 class="service-title"><a href="">Job Search</a></h4>
-          <p class="service-description">According to your skill score you can search best job for you.</p>
+          <p class="service-description">According to your skill score you can search and get best job for you.</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
