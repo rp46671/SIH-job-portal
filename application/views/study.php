@@ -61,7 +61,7 @@
                 <div class="card card-small mb-4 pt-3">
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
-                      <img class="rounded-circle" src="<?php echo base_url('assets/img/dbms.png');?>" alt="User Avatar" width="110"> </div>
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/dbms.png');?>" alt="User Avatar" width="100"> </div>
                     <h4 class="mb-0">Database Managment System </h4>
                     <span class="text-muted d-block mb-2">Prepare Yourself</span>
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
@@ -103,8 +103,8 @@
                 <div class="card card-small mb-4 pt-3">
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
-                      <img class="rounded-circle" src="<?php echo base_url('assets/img/ios.png');?>" alt="User Avatar" width="110"> </div>
-                    <h4 class="mb-0">IOS Application development</h4>
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/ios.png');?>" alt="User Avatar" width="80"> </div>
+                    <h4 class="mb-0">IOS </h4>
                     <span class="text-muted d-block mb-2">Prepare Yourself</span>
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
                     <i class="material-icons mr-1">book </i> Study</button>
@@ -112,7 +112,7 @@
                   
                     <li class="list-group-item p-4">
                       <strong class="text-muted d-block mb-2">Description</strong>
-                      <span>iOS (formerly iPhone OS) is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. It is the operating system that presently powers many of the company's mobile devices, including the iPhone, and iPod Touch;</span>
+                      <span>iOS (formerly iPhone OS) is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. </span>
                     </li>
                   </ul>
                 </div>
@@ -121,7 +121,7 @@
                 <div class="card card-small mb-4 pt-3">
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
-                      <img class="rounded-circle" src="<?php echo base_url('assets/img/marketing.png');?>" alt="User Avatar" width="110"> </div>
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/marketing.png');?>" alt="User Avatar" width="80"> </div>
                     <h4 class="mb-0">Marketing</h4>
                     <span class="text-muted d-block mb-2">Prepare Yourself</span>
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
@@ -139,7 +139,7 @@
                 <div class="card card-small mb-4 pt-3">
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
-                      <img class="rounded-circle" src="<?php echo base_url('assets/img/networking.png');?>" alt="User Avatar" width="110"> </div>
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/networking.png');?>" alt="User Avatar" width="90"> </div>
                     <h4 class="mb-0">Networking</h4>
                     <span class="text-muted d-block mb-2">Prepare Yourself</span>
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
@@ -148,7 +148,7 @@
                   
                     <li class="list-group-item p-4">
                       <strong class="text-muted d-block mb-2">Description</strong>
-                      <span>A computer network is a digital telecommunications network which allows nodes to share resources. In computer networks, computing devices exchange data with each other using connections between nodes.</span>
+                      <span>A computer network is a digital telecommunications network which allows nodes to share resources. </span>
                     </li>
                   </ul>
                 </div>
