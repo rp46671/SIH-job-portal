@@ -22,7 +22,7 @@ img.avatar {
   <table class="col-lg-12">
     <tr>
       <td><div class="col-lg-8">
-           <li class="list-group-item p-3">
+           <li class="list-group-item p-4">
                     <div class="col-sm-12 col-md-10">
             <center>   <strong class="text-muted d-block mb-4">Login</strong></center>
                          <form>
@@ -54,7 +54,7 @@ img.avatar {
              <td>
 
          <div class="col-lg-8">
-                  <li class="list-group-item p-3">
+                  <li class="list-group-item p-4">
                     <div class="col-sm-12 col-md-10">
                           <strong class="text-muted d-block mb-2">Registration Form</strong>
                           <br>
@@ -116,7 +116,7 @@ img.avatar {
 
                             
                         </div>
-                              <button type="submit" class="btn btn-accent">Submit</button>
+                             <center> <button type="submit" class="btn btn-accent">Submit</button>
                               </center>
                             </form>
 

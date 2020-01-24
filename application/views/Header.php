@@ -52,7 +52,7 @@
                      
                      <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </center>  <br><br>
                     <center>        
-                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Experienced</button></center>
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1"><a href="<?php echo site_url('main/login_page');?>">Experienced</a></button></center>
  </li></ul>
                    </div></div>
 
@@ -62,7 +62,8 @@
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item px-3 pull-left"><center>
                      <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </center>  <br><br>   <center>       
-                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Recruiter</button>
+                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                      <a href="<?php echo site_url('main/login_page');?>" >Recruiter</a></button>
 
                    </center>
  </li></ul>
