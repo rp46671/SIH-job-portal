@@ -9,12 +9,23 @@
                   <div class="card-header border-bottom text-center">
                         <form>
                    <div class="col-sm-12 col-md-12 mb-3">
-                  <strong class="text-muted d-block mb-2">1. A single channel is shared by multiple signals by ____________</strong>
-                    <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
-                  <label class="custom-control-label"  for="formsRadioDefault">  analog modulation</label>
-                    </div>
-                  </div>
+                  <?php foreach($ques as $item){?>
+                  <strong class="text-muted d-block mb-2">
+                  <?php echo $item->Test_Question ;?></strong>
 
+                    <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
+                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option1 ;?></label>
+                   <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
+                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option2 ;?></label>
+                   <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
+                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option3 ;?></label>
+                   
+                   <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
+                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option4 ;?></label>
+                   <?php }?> </div>
+                  </div>
+              
+     
               </div>
             
             </div>
