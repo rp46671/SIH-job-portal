@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 21, 2020 at 04:33 PM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.1
+-- Generation Time: Jan 24, 2020 at 03:38 PM
+-- Server version: 10.4.6-MariaDB
+-- PHP Version: 7.1.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -344,7 +344,8 @@ CREATE TABLE `signup` (
   `Answer` varchar(50) NOT NULL,
   `User_Id` varchar(25) NOT NULL,
   `Category` varchar(20) NOT NULL,
-  `Status` tinyint(1) NOT NULL
+  `Status` tinyint(1) NOT NULL,
+  `Contact_no` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -354,14 +355,37 @@ CREATE TABLE `signup` (
 --
 
 CREATE TABLE `test` (
-  `Test_Id` varchar(25) NOT NULL,
+  `Test_Id` int(25) NOT NULL,
   `Recruiter_Id` varchar(25) NOT NULL,
   `Test_Question` text NOT NULL,
+  `Option1` text NOT NULL,
+  `Option2` text NOT NULL,
+  `Option3` text NOT NULL,
+  `Option4` text NOT NULL,
   `Test_Answer` text NOT NULL,
   `Test_Detail` text NOT NULL,
   `Status` tinyint(1) NOT NULL,
-  `Username` varchar(25) NOT NULL
+  `Username` varchar(25) NOT NULL,
+  `Category` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `test`
+--
+
+INSERT INTO `test` (`Test_Id`, `Recruiter_Id`, `Test_Question`, `Option1`, `Option2`, `Option3`, `Option4`, `Test_Answer`, `Test_Detail`, `Status`, `Username`, `Category`) VALUES
+(1, '1', 'A single channel is shared by multiple signals by ____________', 'analog modulation', 'digital modulation', 'multiplexing', 'phase modulation', 'multiplexing', '', 0, '', '1'),
+(2, '1', 'In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________', 'Added', 'Removed', 'Rearranged', 'Modified', 'Added', '', 0, '', '1'),
+(3, '1', 'In asynchronous serial communication the physical layer provides ___________', 'start and stop signalling', 'flow control', 'both start & stop signalling and flow control', 'only start signalling', 'both start & stop signalling and flow control', '', 0, '', '1'),
+(4, '1', 'Which of the following delay is faced by the packet in travelling from one end system to another?', 'Propagation delay', 'Queuing delay', 'Transmission delay', 'All of the mentioned', 'All of the mentioned', '', 0, '', '1'),
+(5, '1', 'For a 10Mbps Ethernet link, if the length of the packet is 32bits, the transmission delay is ____________ (in microseconds)', '3.2', '32', '0.32', '320', '3.2', '', 0, '', '1'),
+(6, '1', 'In the transfer of file between server and client, if the transmission rates along the path is 10Mbps, 20Mbps, 30Mbps, 40Mbps. The throughput is usually ___________', '20Mbps', '10Mbps', '40Mbps', '50Mbps', '10Mbps', '', 0, '', '1'),
+(7, '1', 'Most packet switches use this principle ____________', 'Stop and wait', 'Store and forward', 'Both Stop and wait and Store and forward', 'Stop and forward', 'Store and forward', '', 0, '', '1'),
+(8, '1', 'What are the Methods to move data through a network of links and switches?', 'Packet switching', 'Circuit switching', 'Line switching', 'Both Packet switching and Circuit switching', 'Both Packet switching and Circuit switching', '', 0, '', '1'),
+(9, '1', 'In Go-Back-N window, when the timer of the packet times out, several packets have to be resent even some may have arrived safe. Whereas in Selective Repeat window, the sender resends ___________', 'Packet which are not lost', 'Only those packets which are lost or corrupted', 'Packet from starting', 'All the packets', 'Only those packets which are lost or corrupted', '', 0, '', '1'),
+(10, '1', 'Backpressure technique can be applied only to _______', ' Congestion networks', 'Closed circuit networks', 'Open circuit networks', 'Virtual circuit networks\r\n\r\n', 'Virtual circuit networks\r\n\r\n', '', 0, '', '1'),
+(11, '1', 'Backpressure technique can be applied only to _______', 'Congestion networks', ' Closed circuit networks', ' Open circuit networks', 'Virtual circuit networks', 'Virtual circuit networks', '', 0, '', '1'),
+(12, '1', 'Backpressure technique can be applied only to _______', 'Congestion networks', ' Closed circuit networks', ' Open circuit networks', 'Virtual circuit networks', 'Virtual circuit networks', '', 0, '', '1');
 
 -- --------------------------------------------------------
 
@@ -447,6 +471,26 @@ CREATE TABLE `user_resume` (
   `Status` tinyint(1) NOT NULL,
   `Username` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `test`
+--
+ALTER TABLE `test`
+  ADD PRIMARY KEY (`Test_Id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `test`
+--
+ALTER TABLE `test`
+  MODIFY `Test_Id` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
