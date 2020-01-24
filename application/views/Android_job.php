@@ -36,7 +36,7 @@ function myFunction() {
 
                   <button type="submit" class="btn btn-accent col-lg-3">Apply Job</button>
 
-                 <br><br><center> <button class="btn1" onclick="myFunction()">Job Description</button>
+                 <br><br><center> <button class="btn1" style="color:blue;" onclick="myFunction()">Job Description</button>
 
                     <br>
             <p id="para">  1. This position is responsible for the technical and scientific operation of the laboratories under his/her operation.<br>
@@ -59,8 +59,12 @@ Required Candidate profile<br>
 MD Pathology 0-5 yrs of experience in Pathology & Lab Operations.<br>
 Comfortable to work 4 hours per day( 3 pm to 7 pm ) Mon to sat day. .<br></p></center>
                 </div>
+
               </div> 
+
               </div>     
+              <br>
+
                 
               
 

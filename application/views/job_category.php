@@ -9,8 +9,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle" height="90px"src="<?php echo base_url('assets/img/graphic.jpg');?>" alt="User Avatar" width="110"> </div>
+                   <a href="Graphic_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                      Graphic Designing</button>
+                      Graphic Designing</button></a>
                   </div>
                  
                 </div>
@@ -22,9 +23,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle"height="90px" src="<?php echo base_url('assets/img/networking.png');?>" alt="User Avatar" width="110"> </div>
-                   
+                   <a href="Networking_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                      Networking</button>
+                      Networking</button></a>
                   </div>
                   
                       
@@ -38,9 +39,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle" height="90px" src="<?php echo base_url('assets/img/market.jpg');?>" alt="User Avatar" width="110"> </div>
-                   
+                   <a href="Marketing_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                  Marketing</button>
+                  Marketing</button></a>
                   </div>
                   
                 </div>
@@ -52,9 +53,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle" height="90px" src="<?php echo base_url('assets/img/ios.jpg');?>" alt="User Avatar" width="110"> </div>
-                    
+                    <a href="Ios_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                     Ios</button>
+                     Ios</button></a>
                   
                 </div>
               </div>
@@ -69,9 +70,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle" height="90px" src="<?php echo base_url('assets/img/dba.jpg');?>" alt="User Avatar" width="110"> </div>
-                    
+                    <a href="Dba_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                     Dba</button>
+                     Dba</button></a>
                   </div>
                   
                       
@@ -85,9 +86,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle" height="90px" src="<?php echo base_url('assets/img/hr.jpg');?>" alt="User Avatar" width="110"> </div>
-                    
+                    <a href="Hr_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                      Hr</button>
+                      Hr</button></a>
                   </div>
                   
                 </div>
@@ -98,9 +99,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle" height="90px" src="<?php echo base_url('assets/img/android.png');?>" alt="User Avatar" width="110"> </div>
-                    
+                    <a href="Android_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                     Android </button>
+                     Android </button></a>
                   </div>
                   
                 </div>
@@ -111,9 +112,9 @@
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
                       <img class="rounded-circle" height="90px" src="<?php echo base_url('assets/img/webdevelopment.jpg');?>" alt="User Avatar" width="110"> </div>
-                 
+                 <a href="Webdevelopment_job" >
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
-                      Web Development</button>
+                      Web Development</button></a>
                   </div>
                   
                 </div>
