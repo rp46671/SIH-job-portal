@@ -9,20 +9,37 @@
                   <div class="card-header border-bottom text-center">
                         <form>
                    <div class="col-sm-12 col-md-12 mb-3">
-                  <?php foreach($ques as $item){?>
-                  <strong class="text-muted d-block mb-2">
-                  <?php echo $item->Test_Question ;?></strong>
-
+                  <?php $r=1;?>
+                  <?php foreach($ques as $item){
+                    ;
+                    ?>
+                    <div class="card-body p-0 pb-3 text-center">
+                    <table class="table mb-0">
+                      <tbody>
+                        <tr>
+                          <td>  
+                           <strong class="text-muted d-block mb-2"> 
+                            QUES:  <?php echo $r++;?>
+                                <?php echo $item->Test_Question ;?></strong></td>
+                          </tr>
+                          <tr><td>
                     <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
-                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option1 ;?></label>
+                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option1 ;?></label></td></tr><tr>
+                  <td>
                    <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
-                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option2 ;?></label>
-                   <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
-                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option3 ;?></label>
+                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option2 ;?></label></td></tr><tr>
+                 <td>  <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
+                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option3 ;?></label></td></tr><tr>
                    
-                   <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
+                   <td><input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
                   <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option4 ;?></label>
-                   <?php }?> </div>
+                    </td>
+                        </tr>
+                         </tbody>
+                    </table>
+                  <?php }?></div>
+               
+               </div>
                   </div>
               
      
