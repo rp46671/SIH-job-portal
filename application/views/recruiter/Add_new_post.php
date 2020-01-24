@@ -7,7 +7,7 @@
               <div class="col-lg-12">
                 <div class="card card-small mb-4">
                   <div class="card-header border-bottom">
-                    <h1 class="m-0" style="color:#2282D8">Send us your feedback!</h1>
+                    <h6 class="m-0">Recruitment Details</h6>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item p-3">
@@ -16,8 +16,8 @@
                           <form>
                            <div class="form-row">
                               <div class="form-group col-md-12">
-                                <label for="feDescription"><strong>What was the reason for your visit? </strong></label>
-                                <input type="text" class="form-control" id="feaddpost" placeholder="Tell us your reason">
+                                <label for="feDescription"><strong>Add Post</strong></label>
+                                <input type="text" class="form-control" id="feaddpost" placeholder="Add Post">
                               </div>
                             </div>
 

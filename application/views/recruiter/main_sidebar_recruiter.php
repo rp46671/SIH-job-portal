@@ -40,50 +40,51 @@
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Job_Search');?>">
                   <i class="material-icons">find_in_page</i>
-                  <span><strong>Add Post</strong></span>
+                  <span><strong>Notification</strong></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/Upload_Resume');?>">
+                <a class="nav-link " href="<?php echo site_url('recruiter_controller/addnewpost');?>">
                   <i class="material-icons">view_module</i>
-                  <span><strong>Search for Seeker</strong></span>
+                  <span><strong>Recruitment Details</strong></span>
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/Given_Test');?>">
-                  <i class="material-icons">chat</i>
-                  <span><strong></strong></span>
-                </a>
-              </li>
+             
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Result_Credit');?>">
                   <i class="material-icons">work</i>
-                  <span><strong>Result & Credit </strong></span>
+                  <span><strong>Jobseeker Details</strong></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Apply_Job');?>">
                   <i class="material-icons">table_chart</i>
-                  <span><strong>Apply Job</strong></span>
+                  <span><strong>Active Jobs</strong></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Response');?>">
                   <i class="material-icons">contact_mail</i>
-                  <span><strong>Response</strong></span>
+                  <span><strong>Test</strong></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Study_Resourse');?>">
                   <i class="material-icons">gps_fixed</i>
-                  <span><strong>Study Resourse</strong></span>
+                  <span><strong>Interview Details</strong></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/FAQ');?>">
                   <i class="material-icons">note_add</i>
-                  <span><strong>F-A-Q</strong></span>
+                  <span><strong>Hired Employees</strong></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="<?php echo site_url('main/FeedBack');?>">
+                  <i class="material-icons">present_to_all</i>
+                  <span><strong>Upload Details</strong></span>
                 </a>
               </li>
               <li class="nav-item">
@@ -95,7 +96,7 @@
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/users_main');?>">
                   <i class="material-icons">person</i>
-                  <span><strong>User Profile</strong></span>
+                  <span><strong>Recruiter Profile</strong></span>
                 </a>
               </li>
              </ul>

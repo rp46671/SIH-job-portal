@@ -10,4 +10,11 @@ class Recruiter_controller extends CI_Controller {
 		$this->load->view('dashboard');
 		$this->load->view('Footermain');	
 	}
+	public function addnewpost()
+	{
+		$this->load->view('headermain1');
+		$this->load->view('recruiter/main_sidebar_recruiter');
+		$this->load->view('recruiter/Add_new_post');
+		$this->load->view('Footermain');	
+	}
 }
