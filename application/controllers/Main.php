@@ -38,18 +38,94 @@ class Main extends CI_Controller {
 		$this->load->view('Footermain');
 	}
 
-	public function Apply_job()
+	public function Networking_job()
 	{
 		//$this->load->view('front');
 		$this->load->view('headermain1');
 		//$this->load->view('navbar');
 		$this->load->view('MainSidebar_users');
-		$this->load->view('Apply_job');
+		$this->load->view('Networking_job');
 		//$this->load->view('Footer');
 	
 		$this->load->view('Footermain');
 	}
-
+public function Marketing_job()
+	{
+		//$this->load->view('front');
+		$this->load->view('headermain1');
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
+		$this->load->view('Marketing_job');
+		//$this->load->view('Footer');
+	
+		$this->load->view('Footermain');
+	}
+	public function Ios_job()
+	{
+		//$this->load->view('front');
+		$this->load->view('headermain1');
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
+		$this->load->view('Ios_job');
+		//$this->load->view('Footer');
+	
+		$this->load->view('Footermain');
+	}
+	public function Dba_job()
+	{
+		//$this->load->view('front');
+		$this->load->view('headermain1');
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
+		$this->load->view('Dba_job');
+		//$this->load->view('Footer');
+	
+		$this->load->view('Footermain');
+	}
+	public function Hr_job()
+	{
+		//$this->load->view('front');
+		$this->load->view('headermain1');
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
+		$this->load->view('Hr_job');
+		//$this->load->view('Footer');
+	
+		$this->load->view('Footermain');
+	}
+	public function Graphic_job()
+	{
+		//$this->load->view('front');
+		$this->load->view('headermain1');
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
+		$this->load->view('Graphic_job');
+		//$this->load->view('Footer');
+	
+		$this->load->view('Footermain');
+	}
+	public function Android_job()
+	{
+		//$this->load->view('front');
+		$this->load->view('headermain1');
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
+		$this->load->view('Android_job');
+		//$this->load->view('Footer');
+	
+		$this->load->view('Footermain');
+	}
+	public function Webdevelopment_job()
+	{
+		//$this->load->view('front');
+		$this->load->view('headermain1');
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
+		$this->load->view('Webdevelopment_job');
+		//$this->load->view('Footer');
+	
+		$this->load->view('Footermain');
+	}
 	public function Login_page()
 		{
 				$this->load->view('headermain1');
@@ -96,7 +172,8 @@ public function Response()
 public function Study_Resourse()
 		{
 				$this->load->view('headermain1');
-				$this->load->view('Forget_password');
+				$this->load->view('MainSidebar_users');
+				$this->load->view('study');
 				$this->load->view('Footermain');		
 		}
 
@@ -141,6 +218,7 @@ public function FeedBack()
 				$this->load->view('Footermain');		
 		}
 	}
+
 
 
         
