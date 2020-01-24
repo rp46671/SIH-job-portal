@@ -27,7 +27,7 @@ img.avatar {
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           
-          <li><a href="#testimonials">Testimonials</a></li>
+          <!--<li><a href="#testimonials">Testimonials</a></li>-->
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
@@ -233,32 +233,32 @@ So do not hesitate to explore your career opportunities with our job portal and 
       <div class="row">
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-desktop"></i></div>
-          <h4 class="service-title"><a href="">Resume Maker</a></h4>
+          <h4 class="service-title">Resume Maker</h4>
           <p class="service-description">We’ll provide best resume template for fresher as well as professional.  This is the best place to build,download, and post your resume online for free</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-photo"></i></div>
-          <h4 class="service-title"><a href="">Job Post</a></h4>
+          <h4 class="service-title">Job Post</h4>
           <p class="service-description">Reach out to us those Jobseekers whose skills matches with your requirements “TEST-SELECT-INTERVIEW-HIRE” </p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-          <h4 class="service-title"><a href="">Job Search</a></h4>
+          <h4 class="service-title">Job Search</h4>
           <p class="service-description">According to your skill score you can search and get best job for you.</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-          <h4 class="service-title"><a href="">Test</a></h4>
+          <h4 class="service-title">Test</h4>
           <p class="service-description">Give a small test according to your skill and interest and got your skill score</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-road"></i></div>
-          <h4 class="service-title"><a href="">Skill Score</a></h4>
+          <h4 class="service-title">Skill Score</h4>
           <p class="service-description">Skill score is your first step towards your dream job. This shows how skilled you are in your domain.</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
-          <h4 class="service-title"><a href="">Career Advice</a></h4>
+          <h4 class="service-title">Career Advice</h4>
           <p class="service-description">Best advice given to you for your dream career considering your interest and skills. Which will lead you to a bright future. 
 
 </p>
@@ -267,7 +267,7 @@ So do not hesitate to explore your career opportunities with our job portal and 
     </div>
   </section>
 
-   <section id="testimonials">
+   <!--section id="testimonials">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -310,7 +310,7 @@ So do not hesitate to explore your career opportunities with our job portal and 
     </div>
   </section>
 
- 
+--> 
  <!--- Team Section
   ============================-->
   <section id="team">
@@ -326,7 +326,7 @@ So do not hesitate to explore your career opportunities with our job portal and 
       <div class="row">
         <div class="col-md-4">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('assets/img/team-1.jpg');?>" alt=""></div>
+            <div class="pic"><img src="<?php echo base_url('assets/img/t1.jpg');?>" alt=""></div>
             <h4>Ravi Pandey</h4>
             <span>MCA</span>
             <div class="social">
@@ -340,7 +340,7 @@ So do not hesitate to explore your career opportunities with our job portal and 
 
         <div class="col-md-4">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('assets/img/team-2.jpg');?>" alt=""></div>
+            <div class="pic"><img src="<?php echo base_url('assets/img/t2.jpg');?>" style="width:100% ; height=100%;"alt=""></div>
             <h4>Shaivi Bansal</h4>
             <span>MCA</span>
             <div class="social">
