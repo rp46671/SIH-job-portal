@@ -1,3 +1,18 @@
+<style>
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+}
+</style>
  <br>
 <br><br><br><br><br>  
 
@@ -11,6 +26,11 @@
                     <div class="col-sm-12 col-md-10">
             <center>   <strong class="text-muted d-block mb-4">Login</strong></center>
                          <form>
+                          <div class="imgcontainer">
+                             <img src="<?php echo base_url('assets/img/Login_img.jpg');?>" alt="Login_image" class="avatar">
+                           </div>
+
+
                            <div class="form-group">
                               <div class="input-group mb-3">
                                 <div class="input-group-prepend">
