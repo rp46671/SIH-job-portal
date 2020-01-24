@@ -1,3 +1,6 @@
+
+
+
 <div class="container col-sm-8">
                      <li class="list-group-item p-3">
                       <div class="row">
@@ -50,7 +53,6 @@
                               <label class="custom-control-label" for="formsRadioDisabledChecked"> Modified</label>
                             </div>
                           </fieldset>
-
 
 
                             <strong class="text-muted d-block mb-2">3. In asynchronous serial communication the physical layer provides ___________</strong>
@@ -208,6 +210,20 @@
 
 
                            <strong class="text-muted d-block mb-2">10. Backpressure technique can be applied only to _______</strong>
+                          <!-- / Radios -->
+                          <div class="col-sm-12 col-md-4 mb-3">
+                          <!-- Radios -->
+                          <strong class="text-muted d-block mb-2">Radio Buttons</strong>
+                          <fieldset>
+                            <div class="custom-control custom-radio mb-1">
+                              <input type="radio" id="formsRadioDefault1" name="formsRadioDefault1" class="custom-control-input">gg
+                            </div>
+                          <div class="custom-control custom-radio mb-1">
+                              <input type="radio" id="formsRadioDefault2" name="formsRadioDefault2" class="custom-control-input">ggg</div>
+                        </fieldset>
+                        </div>
+                            
+                             <strong class="text-muted d-block mb-2">2. In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________</strong>
                           <fieldset>
                             <div class="custom-control custom-radio mb-1">
                               <input type="radio" id="formsRadioDefault" name="formsRadioDefault" class="custom-control-input">

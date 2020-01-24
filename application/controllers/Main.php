@@ -30,6 +30,21 @@ class Main extends CI_Controller {
 		$this->load->view('Footermain');
 		
 	}
+
+	public function Registration_page()
+	{
+		$this->load->view('headermain1');
+		$this->load->view('Registration');
+		$this->load->view('Footermain');
+	}
+	public function Apply_job()
+	{
+		$this->load->view('headermain1');
+		
+		$this->load->view('Apply_job');
+		$this->load->view('Footermain');
+	}
+
 	public function Login_page()
 		{
 				$this->load->view('headermain1');
