@@ -8,16 +8,7 @@
                           <br>
                           
                           <form>
-                            <center>
-                             <div class="input-group input-group-seamless">
-                            <span class="input-group-prepend">
-                              <span class="input-group-text">
-                                <i class="material-icons">person</i>
-                              </span>
-                            </span>
-                            <input type="text" class="form-control" id="form1-username" placeholder="First Name ">
-                             </div>
-                              <br>
+                        
                               
                               <div class="input-group input-group-seamless">
                             <span class="input-group-prepend">
@@ -25,7 +16,7 @@
                                 <i class="material-icons">person</i>
                               </span>
                             </span>
-                            <input type="text" class="form-control" id="form1-username" placeholder="Last Name ">
+                            <input type="text" class="form-control" id="form1-username" placeholder="Username Name ">
                              </div>
                               <br>
 
