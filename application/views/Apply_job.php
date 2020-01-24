@@ -2,14 +2,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $(".btn1").dblclick(function(){
-    $("p").slideUp();
-  });
-  $(".btn1").click(function(){
-    $("p").slideDown();
-  });
+    $("p").hide();
 });
 </script>
+<script>
+function myFunction() {
+  var x = document.getElementById("para");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 </head>
 
 
@@ -30,10 +36,10 @@ $(document).ready(function(){
 
                   <button type="submit" class="btn btn-accent col-lg-3">Apply Job</button>
 
-                 <br><br><center> <button class="btn1">Job Description</button>
+                 <br><br><center> <button class="btn1" onclick="myFunction()">Job Description</button>
 
                     <br>
-            <p>  1. This position is responsible for the technical and scientific operation of the laboratories under his/her operation.<br>
+            <p id="para">  1. This position is responsible for the technical and scientific operation of the laboratories under his/her operation.<br>
 2. The position administers those functions, which results and support in the reporting of laboratory results by planning, monitoring, and appraising functional competency.<br>
 3. The position is also responsible for enforcement of policies, which assures compliance with standards and accreditation requirements specified by clinical laboratory accrediting agencies such as CAAP/NABL/ISO/State and Central Govt Guidelines.<br>
 4. The position would ensure the implementation of Quality Management System.<br>
