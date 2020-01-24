@@ -40,10 +40,13 @@ class Main extends CI_Controller {
 
 	public function Apply_job()
 	{
+		//$this->load->view('front');
 		$this->load->view('headermain1');
-		
-	
+		//$this->load->view('navbar');
+		$this->load->view('MainSidebar_users');
 		$this->load->view('Apply_job');
+		//$this->load->view('Footer');
+	
 		$this->load->view('Footermain');
 	}
 
