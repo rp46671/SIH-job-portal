@@ -1,86 +1,123 @@
-<div class="container-fluid">
-      <div class="row">
-        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
-            <div class="main-navbar sticky-top bg-white">
-                <div class="col-lg-12">
-                  <div class="card card-small mb-4">
-                    <div class="card-header border-bottom">
-                     
+<main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+          <div class="main-navbar sticky-top bg-white">
+            <div class="row">
+        
+<div class="col-lg-3" >
 
-                  
-
-                 <br><br><center> <button type="submit" class="btn btn-accent col-lg-3">IT</button>
-
-                    <br>
-           </center>
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/graphic.jpg');?>" alt="User Avatar" width="110"> </div>
+                    
+             
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                      Graphic Designing</button>
+                  </div>
+                 
                 </div>
-              </div> 
+              </div>
 
+<div class="col-lg-3" >
 
-              </div>     
-
-
-<div class="container-fluid">
-      <div class="row">
-        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
-            <div class="main-navbar sticky-top bg-white">
-                <div class="col-lg-12">
-                  <div class="card card-small mb-4">
-                    <div class="card-header border-bottom">
-                     
-
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/networking.png');?>" alt="User Avatar" width="110"> </div>
+                   
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                      Networking</button>
+                  </div>
                   
-
-                 <br><br><center> <button type="submit" class="btn btn-accent col-lg-3">IT</button>
-
-                    <br>
-           </center>
-                </div>
-              </div> 
-
-
-              </div>     
-
-
-<div class="container-fluid">
-      <div class="row">
-        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
-            <div class="main-navbar sticky-top bg-white">
-                <div class="col-lg-12">
-                  <div class="card card-small mb-4">
-                    <div class="card-header border-bottom">
-                     
-
+                      
                   
-
-                 <br><br><center> <button type="submit" class="btn btn-accent col-lg-3">IT</button>
-
-                    <br>
-           </center>
                 </div>
-              </div> 
+              </div>
 
+<div class="col-lg-3" >
 
-              </div>     
-
-
-<div class="container-fluid">
-      <div class="row">
-        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
-            <div class="main-navbar sticky-top bg-white">
-                <div class="col-lg-12">
-                  <div class="card card-small mb-4">
-                    <div class="card-header border-bottom">
-                     
-
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/market.jpg');?>" alt="User Avatar" width="110"> </div>
+                   
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                  Marketing</button>
+                  </div>
                   
-
-                 <br><br><center> <button type="submit" class="btn btn-accent col-lg-3">IT</button>
-
-                    <br>
-           </center>
                 </div>
-              </div> 
+              </div>
 
+<div class="col-lg-3" >
 
-              </div>     
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/ios.jpg');?>" alt="User Avatar" width="110"> </div>
+                    
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                     Ios</button>
+                  
+                </div>
+              </div>
+     </div>       
+   </div></main><main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+          <div class="main-navbar sticky-top bg-white">
+            <div class="row">
+        
+<div class="col-lg-3" >
+
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/dba.jpg');?>" alt="User Avatar" width="110"> </div>
+                    
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                     Dba</button>
+                  </div>
+                  
+                      
+                
+                </div>
+              </div>
+
+<div class="col-lg-3" >
+
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/hr.jpg');?>" alt="User Avatar" width="110"> </div>
+                    
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                      Hr</button>
+                  </div>
+                  
+                </div>
+              </div>
+<div class="col-lg-3" >
+
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/android.png');?>" alt="User Avatar" width="110"> </div>
+                    
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                     Android </button>
+                  </div>
+                  
+                </div>
+              </div>
+<div class="col-lg-3" >
+
+                <div class="card card-small mb-4 pt-3">
+                  <div class="card-header border-bottom text-center">
+                    <div class="mb-3 mx-auto">
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/webdevelopment.jpg');?>" alt="User Avatar" width="110"> </div>
+                 
+                    <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">
+                      Web Development</button>
+                  </div>
+                  
+                </div>
+              </div>
+     </div>       
+   </div></main>
