@@ -82,9 +82,7 @@ public function Result_Credit()
 		}
 
 
-		public function Apply_job()
-		{}
-
+		
 public function Apply_job()
 
 	{
