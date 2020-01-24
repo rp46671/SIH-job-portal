@@ -38,7 +38,7 @@
                     <li class="list-group-item px-3 pull-left"><center>
                      <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img></center><br><br><center>
   
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Freshers</button> </center>
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><a href="<?php echo site_url('main/login_page');?>">Freshers</a></button> </center>
 
              </li></ul>
                    </div></div>
