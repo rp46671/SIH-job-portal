@@ -79,15 +79,8 @@ public function Result_Credit()
 				$this->load->view('Forget_password');
 				$this->load->view('Footermain');		
 
-		}public function Apply_job()
-	{
-		$this->load->view('headermain1');
-		
-		$this->load->view('Apply_job');
-		$this->load->view('Footermain');
-	}
-
 		}
+
 
 public function Response()
 		{
