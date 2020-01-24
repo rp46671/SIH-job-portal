@@ -24,7 +24,8 @@
                         </div>
                         <div class="ql-clipboard" contenteditable="true" tabindex="-1"></div>
                         <div class="ql-tooltip ql-hidden"><a class="ql-preview" target="_blank" href="about:blank"></a><input type="text" data-formula="e=mc^2" data-link="https://quilljs.com" data-video="Embed URL"><a class="ql-action"></a><a class="ql-remove">
-                          
+                        <li><a href="./html/popular/textarea.html" title="Textarea Editor">Textarea Editor</a></li>
+            
                         </a>
                       </div>
                     </div>

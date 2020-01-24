@@ -24,7 +24,10 @@
   About started
   ============================-->
   <section id="about1">
-     <div class="section-title-divider"> </div>
+     <br>
+     
+   <h3 class="section-title">Starting Your Dream's</h3>
+      <div class="section-title-divider"></div>
               
      <div class="container wow fadeInUp ">
      
@@ -36,7 +39,7 @@
                     <li class="list-group-item px-3 pull-left"><center>
                      <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img></center><br><br><center>
   
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Fresher's</button> </center>
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Freshers</button> </center>
 
              </li></ul>
                    </div></div>
@@ -48,10 +51,37 @@
                     <li class="list-group-item px-3 pull-left"><center>
                      <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </center>  <br><br>
                     <center>        
-                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Experienced</button></center>
-</li></ul>
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Experienced</button></center>
+
+                             <div id="myModal1" class="modal fade" role="dialog">
+                              <div class="modal-dialog">
+
+                              <div class="modal-content">
+                              <div class="modal-body">
+                                 <div class="row">
+              <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small lg-4">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left"><center>
+                     <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img></center><br><br><center>
+  
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Freshers</button> </center>
+
+             </li></ul>
                    </div></div>
 
+    
+                               </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      </li></ul>
+            </div></div>
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
                 <div class="card card-small sm-4">
@@ -202,40 +232,42 @@ So do not hesitate to explore your career opportunities with our job portal and 
         <div class="col-md-12">
           <h3 class="section-title">Our Services</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          <p class="section-description">The easiest way to get the best Job Post on-demand.</p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-desktop"></i></div>
-          <h4 class="service-title"><a href="">Lorem Ipsum</a></h4>
-          <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-          <h4 class="service-title"><a href="">Dolor Sitema</a></h4>
-          <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-          <h4 class="service-title"><a href="">Sed ut perspiciatis</a></h4>
-          <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          <h4 class="service-title"><a href="">Resume Maker</a></h4>
+          <p class="service-description">We’ll provide best resume template for fresher as well as professional.  This is the best place to build,download, and post your resume online for free</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-photo"></i></div>
-          <h4 class="service-title"><a href="">Magni Dolores</a></h4>
-          <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <h4 class="service-title"><a href="">Job Post</a></h4>
+          <p class="service-description">Reach out your job seeker whose skills matches with your requirements “test select interview hire” </p>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+          <h4 class="service-title"><a href="">Job Search</a></h4>
+          <p class="service-description">According to your skill score you can search best job for you.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+          <h4 class="service-title"><a href="">Test</a></h4>
+          <p class="service-description">Give a small test according to your skill and interest and got your skill score</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-road"></i></div>
-          <h4 class="service-title"><a href="">Nemo Enim</a></h4>
-          <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          <h4 class="service-title"><a href="">Skill Score</a></h4>
+          <p class="service-description">Skill score is your first step towards your dream job. This shows how skilled you are in your domain.</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
-          <h4 class="service-title"><a href="">Eiusmod Tempor</a></h4>
-          <p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          <h4 class="service-title"><a href="">Career Advice</a></h4>
+          <p class="service-description">Best advice given to you for your dream career considering your interest and skills. Which will lead you to a bright future. 
+
+</p>
         </div>
       </div>
     </div>

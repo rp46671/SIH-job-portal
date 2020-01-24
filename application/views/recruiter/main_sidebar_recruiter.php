@@ -40,19 +40,20 @@
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Job_Search');?>">
                   <i class="material-icons">find_in_page</i>
-                  <span><strong>Job Search</strong></span>
+                  <span><strong>Add Post</strong></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Upload_Resume');?>">
                   <i class="material-icons">view_module</i>
-                  <span><strong>Upload Resume</strong></span>
+                  <span><strong>Search for Seeker</strong></span>
                 </a>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Given_Test');?>">
                   <i class="material-icons">chat</i>
-                  <span><strong>Given Test</strong></span>
+                  <span><strong></strong></span>
                 </a>
               </li>
               <li class="nav-item">
