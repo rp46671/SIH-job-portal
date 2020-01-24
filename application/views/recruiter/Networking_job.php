@@ -32,7 +32,7 @@ function myFunction() {
                     0 - 4 years</br>
                     Not Disclosed</br>
                       Kolkata( Habra, Naihati, Dankuni )&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <button type="submit" class="btn btn-accent col-lg-3">Intrested</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="submit" class="btn btn-accent col-lg-3">Interested</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                   <button type="submit" class="btn btn-accent col-lg-3">Apply Job</button>
 
