@@ -59,7 +59,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="wow fadeIn">
 
         <div class="hero-logo">
-          <img class="" src="<?php echo base_url('assets/img/logo.png');?>" alt="Imperial">
+          <a href="<?php echo site_url('main/index');?>">
+          <img class="" src="<?php echo base_url('assets/img/logo.png');?>" alt="Imperial"></a>
         </div>
 
         <h1>Welcome to GrabRozgar</h1>
