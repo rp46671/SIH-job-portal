@@ -53,7 +53,6 @@ function myFunction() {
 12. The position is responsible to design and implement a contingency plan to ensure that essential services are available during emergency situations or other conditions when laboratory services are limited or unavailable.<br>
 13. The position is responsible for executing his/her administrative and managerial duties in an organized manner.
 Required Candidate profile<br><br>
-
 <h5>Required Candidate profile</h5>
 Required Candidate profile<br>
 MD Pathology 0-5 yrs of experience in Pathology & Lab Operations.<br>
