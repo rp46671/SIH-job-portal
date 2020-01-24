@@ -37,7 +37,16 @@ class Main extends CI_Controller {
 		$this->load->view('Registration');
 		$this->load->view('Footermain');
 	}
+
+	public function Apply_job()
+	{
+		$this->load->view('headermain1');
+		$this->load->view('MainSidebar_users');
 	
+		$this->load->view('Apply_job');
+		$this->load->view('Footermain');
+	}
+
 	public function Login_page()
 		{
 				$this->load->view('headermain1');
@@ -69,6 +78,7 @@ public function Result_Credit()
 				$this->load->view('headermain1');
 				$this->load->view('Forget_password');
 				$this->load->view('Footermain');		
+
 		}public function Apply_job()
 	{
 		$this->load->view('headermain1');
@@ -76,6 +86,8 @@ public function Result_Credit()
 		$this->load->view('Apply_job');
 		$this->load->view('Footermain');
 	}
+
+		}
 
 public function Response()
 		{
