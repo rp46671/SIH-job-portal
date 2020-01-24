@@ -80,7 +80,7 @@ public function Result_Credit()
 				$this->load->view('Footermain');		
 
 		}
- 	
+
 
 
 public function Response()
