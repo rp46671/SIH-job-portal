@@ -7,67 +7,34 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#portfolio">Advertisment</a></li>
+          
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
     </div>
-     <div class="container ">
-      <div class="row">
-       
-  <nav class="navbar navbar-expand-lg  navbar-light" style="background-color: #e3f2fd;">
-       <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#team">Team</a></li>
-      </div>
-     <!-- Navbar content -->
-</nav>
-      </div>
-    </div>
-
   </header>
   <!--==========================
   About started
   ============================-->
-  <section id="about">
-   
-     <div class="container ">
+  <section id="about1">
+     <div class="section-title-divider"> </div>
+              
+     <div class="container wow fadeInUp ">
+     
       <div class="row">
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
                 <div class="card card-small lg-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
-                  </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img><br><br><center>
+                    <li class="list-group-item px-3 pull-left"><center>
+                     <img src="<?php echo base_url('assets/img/user_img1.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img></center><br><br><center>
   
               <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Fresher's</button> </center>
 
@@ -77,12 +44,9 @@
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
                 <div class="card card-small sm-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
-                  </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img>   <br><br>
+                    <li class="list-group-item px-3 pull-left"><center>
+                     <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </center>  <br><br>
                     <center>        
                       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Experienced</button></center>
 </li></ul>
@@ -91,12 +55,9 @@
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
                 <div class="card card-small sm-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
-                  </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img>   <br><br>   <center>       
+                    <li class="list-group-item px-3 pull-left"><center>
+                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </center>  <br><br>   <center>       
                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Recruiter</button></center>
  </li></ul>
                    </div></div>
@@ -104,12 +65,9 @@
               <div class="col-sm-3">
                 <!-- Sliders & Progress Bars -->
                 <div class="card card-small sm-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
-                  </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/search.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> <br><br><center>
+                    <li class="list-group-item px-3 pull-left"><center>
+                     <img src="<?php echo base_url('assets/img/search.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img></center> <br><br><center>
                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Search</button>
                   </center>
 </div></div>
@@ -119,53 +77,83 @@
                
    
   
-<section id="about">
-   
-     <div class="container ">
-      <div class="row">
-              <h3 class="section-title">Advertisment</h3>
-          <div class="col-sm-3">
-                <!-- Sliders & Progress Bars -->
-                <div class="card card-small sm-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
+<section id="portfolio">
+   <h3 class="section-title">Advertisment</h3>
+      <div class="section-title-divider"></div>
+              
+     <div class="container wow fadeInUp ">
+             <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-small card-post card-post--1">
+                  <div class="card-post__image" style="background-image: url('assets/img/content-management/1.jpeg');">
+                    <a href="#" class="card-post__category badge badge-pill badge-dark">Business</a>
+                    <div class="card-post__author d-flex">
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/0.jpg');">Written by Anna Kunis</a>
+                    </div>
                   </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
-                   </div></div>
-              <div class="col-sm-3">
-                <!-- Sliders & Progress Bars -->
-                <div class="card card-small sm-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a class="text-fiord-blue" href="#">Conduct at an replied removal an amongst</a>
+                    </h5>
+                    <p class="card-text d-inline-block mb-3">However venture pursuit he am mr cordial. Forming musical am hearing studied be luckily. But in for determine what would see...</p>
+                    <span class="text-muted">28 February 2019</span>
                   </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
-                   </div></div>
-              <div class="col-sm-3">
-                <!-- Sliders & Progress Bars -->
-                <div class="card card-small sm-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/recruiter.jpg');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
-                   </div></div>
-              <div class="col-sm-3">
-                <!-- Sliders & Progress Bars -->
-                <div class="card card-small sm-4">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-4">Sliders & Progress Bars</h6>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item px-3 pull-left">
-                     <img src="<?php echo base_url('assets/img/search.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </li></ul>
-                   </div></div>
-             </div>         
                 </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-small card-post card-post--1">
+                  <div class="card-post__image" style="background-image: url('assets/img/content-management/2.jpeg');">
+                    <a href="#" class="card-post__category badge badge-pill badge-info">Travel</a>
+                    <div class="card-post__author d-flex">
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('assets/img/avatars/1.jpg');">Written by James Jamerson</a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a class="text-fiord-blue" href="#">Off tears are day blind smile alone had ready</a>
+                    </h5>
+                    <p class="card-text d-inline-block mb-3">Is at purse tried jokes china ready decay an. Small its shy way had woody downs power. To denoting admitted speaking learning my...</p>
+                    <span class="text-muted">29 February 2019</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-small card-post card-post--1">
+                  <div class="card-post__image" style="background-image: url('assets/img/content-management/3.jpeg');">
+                    <a href="#" class="card-post__category badge badge-pill badge-primary">Technology</a>
+                    <div class="card-post__author d-flex">
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('assets/img/avatars/2.jpg');">Written by Jimmy Jackson</a>
+                   </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a class="text-fiord-blue" href="#">Difficult in delivered extensive at direction</a>
+                    </h5>
+                    <p class="card-text d-inline-block mb-3">Is at purse tried jokes china ready decay an. Small its shy way had woody downs power. To denoting admitted speaking learning my...</p>
+                    <span class="text-muted">29 February 2019</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-small card-post card-post--1">
+                  <div class="card-post__image" style="background-image: url('images/content-management/4.jpeg');">
+                    <a href="#" class="card-post__category badge badge-pill badge-warning">Technology</a>
+                    <div class="card-post__author d-flex">
+                      <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('images/avatars/3.jpg');">Written by John James</a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a class="text-fiord-blue" href="#">It so numerous if he may outlived disposal</a>
+                    </h5>
+                    <p class="card-text d-inline-block mb-3">How but sons mrs lady when. Her especially are unpleasant out alteration continuing unreserved ready road market resolution...</p>
+                    <span class="text-muted">29 February 2019</span>
+                  </div>
+                </div>
+              </div>
+            </div> </div>
+        </div>
+      </div></div>
               </section>
                
    
@@ -305,16 +293,16 @@ So do not hesitate to explore your career opportunities with our job portal and 
         <div class="col-md-12">
           <h3 class="section-title">Our Team</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Need to get in Touch with the Team? We're all ears.</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
             <div class="pic"><img src="<?php echo base_url('assets/img/team-1.jpg');?>" alt=""></div>
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
+            <h4>Ravi Pandey</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -324,11 +312,11 @@ So do not hesitate to explore your career opportunities with our job portal and 
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
             <div class="pic"><img src="<?php echo base_url('assets/img/team-2.jpg');?>" alt=""></div>
-            <h4>Sarah Jhinson</h4>
-            <span>Product Manager</span>
+            <h4>Shaivi Bansal</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -338,11 +326,11 @@ So do not hesitate to explore your career opportunities with our job portal and 
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('assets/img/team-3.jpg');?>" alt=""></div>
-            <h4>William Anderson</h4>
-            <span>CTO</span>
+            <div class="pic"><img src="<?php echo base_url('assets/img/t3.jpg');?>" alt=""></div>
+            <h4>Preeti Kumari Kuswaha</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -352,11 +340,11 @@ So do not hesitate to explore your career opportunities with our job portal and 
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('assets/img/team-4.jpg');?>" alt=""></div>
-            <h4>Amanda Jepson</h4>
-            <span>Accountant</span>
+            <div class="pic"><img src="<?php echo base_url('assets/img/t4.jpg');?>" alt=""></div>
+            <h4>Suraj Uniyal</h4>
+            <span>MCA</span>
             <div class="social">
               <a href=""><i class="fa fa-twitter"></i></a>
               <a href=""><i class="fa fa-facebook"></i></a>
@@ -365,6 +353,36 @@ So do not hesitate to explore your career opportunities with our job portal and 
             </div>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/tr5.jpg');?>" alt=""></div>
+            <h4>Vikram Singh</h4>
+            <span>MCA</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="member">
+            <div class="pic"><img src="<?php echo base_url('assets/img/team-6.jpg');?>" alt=""></div>
+            <h4>Abhinav Kumar</h4>
+            <span>MCA</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </div>
@@ -377,9 +395,9 @@ So do not hesitate to explore your career opportunities with our job portal and 
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h3 class="section-title">Drop us a Line</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">We’d love to hear from you</p>
         </div>
       </div>
 
@@ -388,17 +406,17 @@ So do not hesitate to explore your career opportunities with our job portal and 
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p>566/6, Bell Road, Society Area<br>Clement Town, Dehradun, Uttarakhand 248002</p>
             </div>
 
             <div>
               <i class="fa fa-envelope"></i>
-              <p>info@example.com</p>
+              <p>Gr-alpha@gmail.com</p>
             </div>
 
             <div>
               <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
+              <p>1800 270 1280</p>
             </div>
 
           </div>

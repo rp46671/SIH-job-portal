@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>GrabRoger_Dashboard</title>
+    <title>GrabRogzer_Dashboard</title>
     <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -14,5 +14,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="<?php echo base_url('assets/css/shards-dashboards.1.1.0.min.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/extras.1.1.0.min.css');?>">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    
   </head>
   
