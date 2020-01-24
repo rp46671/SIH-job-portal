@@ -24,7 +24,11 @@
                           </tr>
                           <tr><td>
                     <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
-                  <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option1 ;?></label></td></tr><tr>
+                  <label class="custom-control-label"  for="formsRadioDefault">
+                   <?php echo $item->Option1 ;?></label>
+                 </td>
+               </tr>
+               <tr>
                   <td>
                    <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
                   <label class="custom-control-label"  for="formsRadioDefault"> <?php echo $item->Option2 ;?></label></td></tr><tr>
