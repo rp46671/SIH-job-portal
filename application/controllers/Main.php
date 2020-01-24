@@ -81,6 +81,20 @@ public function Result_Credit()
 
 		}
 
+
+		
+public function Apply_job()
+
+	{
+		$this->load->view('headermain1');
+		
+		$this->load->view('Apply_job');
+		$this->load->view('Footermain');
+	}
+
+
+
+
 public function Response()
 		{
 				$this->load->view('headermain1');
@@ -135,4 +149,4 @@ public function FeedBack()
                   
                                                      
                   
-       
+
