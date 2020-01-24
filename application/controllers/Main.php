@@ -96,7 +96,8 @@ public function Response()
 public function Study_Resourse()
 		{
 				$this->load->view('headermain1');
-				$this->load->view('Forget_password');
+				$this->load->view('MainSidebar_users');
+				$this->load->view('study');
 				$this->load->view('Footermain');		
 		}
 
@@ -131,7 +132,9 @@ public function FeedBack()
 				//$this->load->view('dashboard');
 				$this->load->view('Footermain');		
 		}
+	
 	}
+
 
 
         
