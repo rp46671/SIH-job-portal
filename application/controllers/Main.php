@@ -127,6 +127,7 @@ public function FeedBack()
 				//$this->load->view('dashboard');
 				$this->load->view('Footermain');		
 		}
+	}
 
 
         
@@ -135,4 +136,4 @@ public function FeedBack()
                   
                                                      
                   
-              }
+
