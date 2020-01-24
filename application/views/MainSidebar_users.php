@@ -52,7 +52,7 @@
               <li class="nav-item">
                 <a class="nav-link " href="<?php echo site_url('main/Given_Test');?>">
                   <i class="material-icons">chat</i>
-                  <span><strong>Given Test</strong></span>
+                  <span><strong>Give Test</strong></span>
                 </a>
               </li>
               <li class="nav-item">
