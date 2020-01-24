@@ -1,3 +1,18 @@
+<style>
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+</style>
+
+
 <header id="header">
       <div class="container">
       <div id="logo" class="pull-left">
