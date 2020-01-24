@@ -217,6 +217,16 @@ public function FeedBack()
 				//$this->load->view('dashboard');
 				$this->load->view('Footermain');		
 		}
+
+	public function underconstruct()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('MainSidebar_users');
+				
+				$this->load->view('Under_construct');
+						$this->load->view('Footermain');		
+								
+		}
 	}
 
 

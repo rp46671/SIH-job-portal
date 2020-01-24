@@ -50,8 +50,8 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-nowrap px-3" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    <img class="user-avatar rounded-circle mr-2" src="images/avatars/0.jpg" alt="User Avatar">
-                    <span class="d-none d-md-inline-block">Sierra Brooks</span>
+                    <img class="user-avatar rounded-circle mr-2" src="<?php echo Base_url('assets/img/t3.jpg');?>">
+                    <span class="d-none d-md-inline-block">Preeti_kus</span>
                   </a>
                   <div class="dropdown-menu dropdown-menu-small">
                     <a class="dropdown-item" href="user-profile-lite.html">
@@ -78,8 +78,8 @@
             <!-- Page Header -->
             <div class="page-header row no-gutters py-4">
               <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-                <span class="text-uppercase page-subtitle">Dashboard</span>
-                <h3 class="page-title">DasHBOARd</h3>
+                
+                <h3 class="page-title">Dashboard</h3>
               </div>
             </div>
               </div>

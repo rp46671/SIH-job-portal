@@ -38,7 +38,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/Job_Search');?>">
+                <a class="nav-link " href="<?php echo site_url('main/underconstruct');?>">
                   <i class="material-icons">find_in_page</i>
                   <span><strong>Notification</strong></span>
                 </a>
@@ -52,7 +52,7 @@
 
              
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/Result_Credit');?>">
+                <a class="nav-link " href="<?php echo site_url('main/underconstruct');?>">
                   <i class="material-icons">work</i>
                   <span><strong>Jobseeker Details</strong></span>
                 </a>
@@ -64,19 +64,19 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/Response');?>">
+                <a class="nav-link " href="<?php echo site_url('main/underconstruct');?>">
                   <i class="material-icons">contact_mail</i>
                   <span><strong>Test</strong></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/Study_Resourse');?>">
+                <a class="nav-link " href="<?php echo site_url('main/underconstruct');?>">
                   <i class="material-icons">gps_fixed</i>
                   <span><strong>Interview Details</strong></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/FAQ');?>">
+                <a class="nav-link " href="<?php echo site_url('main/underconstruct');?>">
                   <i class="material-icons">note_add</i>
                   <span><strong>Hired Employees</strong></span>
                 </a>
