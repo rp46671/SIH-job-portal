@@ -132,7 +132,15 @@ public function FeedBack()
 				//$this->load->view('dashboard');
 				$this->load->view('Footermain');		
 		}
-	
+
+	public function job_cat()
+		{
+				$this->load->view('headermain1');
+				$this->load->view('MainSidebar_users');
+				$this->load->view('job_category');
+				//$this->load->view('dashboard');
+				$this->load->view('Footermain');		
+		}
 	}
 
 
