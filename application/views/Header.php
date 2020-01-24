@@ -51,7 +51,31 @@
                     <li class="list-group-item px-3 pull-left"><center>
                      <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </center>  <br><br>
                     <center>        
-                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Experienced</button></center>
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Experienced</button></center>
+
+<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+            <div class="col-sm-3">
+                <!-- Sliders & Progress Bars -->
+                <div class="card card-small sm-4">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-3 pull-left"><center>
+                     <img src="<?php echo base_url('assets/img/experienced.png');?>" style="height: 100px; width: 120px;"alt="" title="" /></img> </center>  <br><br>
+                    <center>        
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Experienced</button></center>
+ </div></li></ul></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 </li></ul>
                    </div></div>
 
