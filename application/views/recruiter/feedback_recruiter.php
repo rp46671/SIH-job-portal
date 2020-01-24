@@ -7,7 +7,7 @@
               <div class="col-lg-12">
                 <div class="card card-small mb-4">
                   <div class="card-header border-bottom">
-                    <h6 class="m-0">Recruitment Details</h6>
+                    <h1 class="m-0" style="color:#4999E1">Send us your feedback!</h1>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item p-3">
@@ -16,22 +16,22 @@
                           <form>
                            <div class="form-row">
                               <div class="form-group col-md-12">
-                                <label for="feDescription"><strong>Add Post</strong></label>
-                                <input type="text" class="form-control" id="feaddpost" placeholder="Add Post">
+                                <label for="feDescription"><strong>What was the reason for your visit? </strong></label>
+                                <input type="text" class="form-control" id="feaddpost" placeholder="Tell us your reason">
                               </div>
                             </div>
 
                             <div class="form-row">
                               <div class="form-group col-md-12">
-                                <label for="feDescription"><strong>Description</strong></label>
-                                <textarea class="form-control" name="feDescription" rows="10"> </textarea>
+                                <label for="feDescription"><strong>What was the reason you could not achieve your goal?</strong></label>
+                                <input type="text" class="form-control" id="feaddpost" placeholder="Tell us your reason">
                               </div>
                             </div>
 
                             <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="feEmailAddress"><strong>No Of Posts<strong></label>
-                                <input type="text" class="form-control" id="feNoofposts" placeholder="No of Posts"> </div>
+                                <label for="feEmailAddress"><strong>Do you have any suggestions to make our website better?<strong></label>
+                                <input type="text" class="form-control" id="feaddpost" placeholder="Tell us your suggestions"> </div>
                             </div>
                             <button type="submit" class="btn btn-accent"> Submit </button>
                           </form>

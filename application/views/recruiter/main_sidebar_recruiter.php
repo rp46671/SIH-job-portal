@@ -88,7 +88,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo site_url('main/FeedBack');?>">
+                <a class="nav-link " href="<?php echo site_url('Recruiter_controller/feedbackrecruiter');?>">
                   <i class="material-icons">present_to_all</i>
                   <span><strong>FeedBack</strong></span>
                 </a>
