@@ -1,6 +1,3 @@
- 
-
-
 
  <div class="col-lg-8">
                 <div class="card card-small mb-4">
@@ -44,8 +41,3 @@ Comfortable to work 4 hours per day( 3 pm to 7 pm ) Mon to sat day. .<br>
                   </div>
                   </div>      
                </div>
-
-
-              
-
-             
