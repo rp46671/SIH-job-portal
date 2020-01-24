@@ -30,10 +30,7 @@
                              </div>
                               <br>
 
-                              <div class="form-group col-md-18">
-                                <input type="text" class="form-control" id="validationServer01" placeholder="Email"  
-                                id="email_id" name="email_id" required>
-                              </div> 
+                            
                               <div class="form-group col-md-18">
                                 <input type="text" class="form-control" id="validationServer01" placeholder="Contact No"
                                 id="contact_no" name="contact_no"  required>

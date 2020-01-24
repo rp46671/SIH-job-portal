@@ -10,11 +10,10 @@ img.avatar {
   border-radius: 50%;
 }
 
-
-}
 </style>
  <br>
 <br><br><br><br><br>  
+<!-----login page----------------------------------------->
 
 <div class="container">
   <div class="row">
@@ -53,6 +52,12 @@ img.avatar {
              </td>
              <td>
 
+
+
+
+
+<!-----registration form ---------------------->
+
          <div class="col-lg-8">
                   <li class="list-group-item p-4">
                     <div class="col-sm-12 col-md-10">
@@ -82,10 +87,7 @@ img.avatar {
                              </div>
                               <br>
 
-                              <div class="form-group col-md-18">
-                                <input type="text" class="form-control" id="validationServer01" placeholder="Email"  
-                                id="email_id" name="email_id" required>
-                              </div> 
+                            
                               <div class="form-group col-md-18">
                                 <input type="text" class="form-control" id="validationServer01" placeholder="Contact No"
                                 id="contact_no" name="contact_no"  required>
@@ -126,3 +128,7 @@ img.avatar {
                     </div>
                       </td></tr></table>        
         </div></div></div>
+
+
+     
+                         
