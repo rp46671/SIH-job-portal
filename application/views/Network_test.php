@@ -6,26 +6,29 @@
                           <form>
                             <div class="col-sm-12 col-md-12 mb-3">
                           <!-- Radios -->
-                          <strong class="text-muted d-block mb-2">1. A single channel is shared by multiple signals by ____________</strong>
+                      
+
+
+                         <strong class="text-muted d-block mb-2">1. A single channel is shared by multiple signals by ____________</strong>
+                          <fieldset>
                             <div class="custom-control custom-radio mb-1">
-                              <input type="radio" id="formsRadioDefault1" name="formsRadioDefault1" class="custom-control-input">
-                              <label class="custom-control-label" for="formsRadioDefault1">analog modulation</label>
+                              <input type="radio"id="formsRadioDefault" name="formsRadioDefault" >
+                         <label class="custom-control-label"  for="formsRadioDefault">  analog modulation</label>
                             </div>
                             <div class="custom-control custom-radio mb-1">
-                              <input type="radio" id="formsRadioChecked2" name="formsRadioChecked2" class="custom-control-input" >
-                              <label class="custom-control-label" for="formsRadioChecked2">digital modulation</label>
+                              <input type="radio" id="formsRadioDefault"  name="formsRadioDefault">
+                            <label class="custom-control-label"  for="formsRadioDefault"> digital modulation</label>
                             </div>
-                            <div class="custom-control custom-radio mb-1">
-                              <input type="radio" id="formsRadioDisabled3" name="formsRadioDisabled3" class="custom-control-input" >
-                              <label class="custom-control-label" for="formsRadioDisabled3">multiplexing</label>
+                               <div class="custom-control custom-radio mb-1">
+                              <input type="radio" id="formsRadioDefault"  name="formsRadioDefault">
+                            <label class="custom-control-label"  for="formsRadioDefault"> multiplexing</label>
                             </div>
-                            <div class="custom-control custom-radio mb-1">
-                              <input type="radio" id="formsRadioDisabledChecked4" name="formsRadioDisabledChecked4" class="custom-control-input">
-                              <label class="custom-control-label" for="formsRadioDisabledChecked4">phase modulation</label>
+                           <div class="custom-control custom-radio mb-1"  >
+                              <input type="radio" id="formsRadioDefault" name="formsRadioDefault">
+                            <label class="custom-control-label" for="formsRadioDefault" > phase modulation</label>
                             </div>
-                          <!-- / Radios -->
-                        </div>
-                            
+                          </fieldset>
+
 
 
                              <strong class="text-muted d-block mb-2">2. In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________</strong>
