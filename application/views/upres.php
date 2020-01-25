@@ -1,3 +1,14 @@
+<style>
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+</style>
 
     <div class="container-fluid">
       <div class="row">
@@ -8,7 +19,7 @@
                 <div class="card card-small mb-4 pt-3">
                   <div class="card-header border-bottom text-center">
                     <div class="mb-3 mx-auto">
-                      <img class="rounded-circle" src="<?php echo base_url('assets/img/upload.png');?>" alt="User Avatar" width="110"> </div>
+                      <img class="rounded-circle" src="<?php echo base_url('assets/img/Login_img.jpg');?>" alt="User Avatar" width="110"> </div>
                     <h4 class="mb-0">Upload Resume</h4>
                     <span class="text-muted d-block mb-2">Project Manager</span>
                     <button type="button" class="mb-2 btn btn-sm btn-pill btn-outline-primary mr-2">

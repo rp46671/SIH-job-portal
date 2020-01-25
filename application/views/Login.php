@@ -24,8 +24,16 @@ img.avatar {
            <li class="list-group-item p-4">
                     <div class="col-sm-12 col-md-10">
             <center>   <strong class="text-muted d-block mb-4">Login</strong></center>
-                         <form>
-                          <div class="imgcontainer">
+                          <?php
+              $data = array(
+                'name' => 'frmLogin',
+                'id' => 'frmLogin',
+                'class' => 'form-vertical'
+              );
+                echo form_open('Login_controller/authenticate', $data);  
+                //echo validation_errors();
+                ?>
+            <div class="imgcontainer">
                              <img src="<?php echo base_url('assets/img/Login_img.jpg');?>" alt="Login_image" class="avatar">
                            </div>
 
@@ -35,18 +43,20 @@ img.avatar {
                                 <div class="input-group-prepend">
                                   <span class="input-group-text" id="basic-addon1"><i class="material-icons">person</i></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> </div>
+                                <input type="text" id="user_"  name="user_" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> </div>
                             </div>
                           
                             
                             <div class="form-group">
-                              <input type="password" class="form-control" id="inputPassword4" placeholder="Password" value=""> </div>
+                              <input type="password"  name="pwd"class="form-control" id="inputPassword4" placeholder="Password" value=""> </div>
                               <a href="forget_password">Forget Password?</a>
                                <div class="form-group mb-0">
                        <center> <button type="submit" class="btn btn-accent">Login</button></center>
                       </div>
-                      </form>
-                    </div>
+                  <?php
+            echo form_close();  
+          ?>
+         </div>
                   </li>
                 </div>
              </td>
@@ -130,5 +140,5 @@ img.avatar {
         </div></div></div>
 
 
-     
+
                          
