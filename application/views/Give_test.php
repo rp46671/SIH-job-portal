@@ -11,11 +11,12 @@
                       <tbody>
                         <tr>
                           <td><a href="<?php echo site_url('Test_Controller/network');?>"><span class="btn btn-accent" >Networking</span> </a></td>
-                          <td>Marketting</td>
-                          <td>IOS</td>
-                          <td>HR</td>
-                          <td>Graphic Design</td>
-                          <td>Android</td>
+                          <td><a href="<?php echo site_url('Test_Controller/network');?>"><span class="btn btn-accent" >Marketting<span></td>
+                          <td><a href="<?php echo site_url('Test_Controller/network');?>"><span class="btn btn-accent" >IOS</span></td>
+                          <td><a href="<?php echo site_url('Test_Controller/network');?>"><span class="btn btn-accent" >HR
+                          </span></td>
+                          <td><a href="<?php echo site_url('Test_Controller/network');?>"><span class="btn btn-accent" >Graphic Design</span></td>
+                          <td><a href="<?php echo site_url('Test_Controller/network');?>"><span class="btn btn-accent" >Android</span></td>
                         </tr>
                       </tbody>
                     </table>
@@ -24,7 +25,7 @@
               </div>
             </div>
             
-                      <div class="row">
+                      <!--div class="row">
                         <div class="col-sm-12 col-md-6">
                           <strong class="text-muted d-block mb-2">Test</strong>
                           <br>
@@ -47,7 +48,7 @@
                                 <button type="submit" name="front_end" id="front_end" class="btn btn-accent"  href="<?php echo site_url('Main/Networking_Test');?>">Front End</button>
                           
                                 <button type="submit"  name="test" id="test"  class="btn btn-accent"  href="<?php echo site_url('Main/Networking_Test');?>">Testing</button>
-                               </div>
+                               </div-->
                         </div>
                       </div>
                     </li>
